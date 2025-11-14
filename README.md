@@ -108,5 +108,8 @@ vim.api.nvim_set_hl(0, "NvimTreeGitDeleted", {fg = "#330000"})
 
 # Options
 ```lua
-
+vim.o.fillchars = "eob: "
+vim.o.number = true
+vim.o.relativenumber = false
+```
 
